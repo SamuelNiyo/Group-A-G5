@@ -1,0 +1,98 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  .navbar {
+    top:0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    gap: 20%;
+    background-color: #333;
+    overflow: hidden;
+  }
+
+  .navbar-brand {
+    float: left;
+    padding: 16px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .navbar-menu a {
+    color: white;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .navbar-menu a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
+  .container {
+    margin-top: 4%;
+    display: flex;
+  }
+  
+  .video-container {
+    flex: 1;
+  }
+  
+  .main-video {
+    margin: 20px;
+    width: 1000px;
+  }
+  
+  .like-comment {
+    margin-top: 20px;
+  }
+  
+  .like-comment button {
+    padding: 10px 20px;
+    margin-right: 10px;
+  }
+  
+  .sidebar {
+    width: 700px;
+    background-color: #f9f9f9;
+  }
+  
+  .sub-videos {
+    padding: 20px;
+  }
+  
+  .sub-video {
+  margin-bottom: 20px; 
+  }
+  
+  .sub-video video {
+    width: 100%;
+    height: auto;
+  }
+  
+  .sub-video h3 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+  }
+  
+  footer p {
+    margin: 0;
+  }
